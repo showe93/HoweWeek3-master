@@ -8,7 +8,7 @@ public class BankAccount {
 
     public BankAccount(){
         interestRate=0.02f;
-        accountID=nextID;
+        accountID = nextID;
         nextID++;
     }
     public BankAccount(double initialBalance, float initialRate){
@@ -39,7 +39,9 @@ public class BankAccount {
         return balance;
     }
 
-
+    public int getAccountID(){
+        return accountID;
+    }
 
 }
 
