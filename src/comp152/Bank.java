@@ -26,7 +26,7 @@ public class Bank {
         var inputReader = new Scanner(System.in);
         while(true){
             printMenu();
-            var input = inputReader.nextInt():
+            var input = inputReader.nextInt();
 
         }
     }
