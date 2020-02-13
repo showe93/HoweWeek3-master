@@ -18,9 +18,16 @@ public class Customer {
         return success;
     }
 
-    //public BankAcoount closeAccount(int bankAccountID) {
-
-    //}
+    public BankAccount closeAccount(int accountID) {
+        BankAccount accountToClose = null;
+        for (var account: accounts) {
+            if (account.getAccountID() == accountID) {
+                accountToClose = account;
+            }
+        }
+        accounts.remove(accountToClose);
+        return accountToClose;
+    }
     public String getName(){
         return name;
     }
