@@ -27,6 +27,19 @@ public class Bank {
         while(true){
             printMenu();
             var input = inputReader.nextInt();
+            switch(input){
+                case 1:
+                    System.out.println("We haven't implemented that yet");
+                    break;
+                case 2:
+                    System.out.println("We haven't implemented that yet");
+                    break;
+                case 3:
+                    System.out.println("We haven't implemented that yet");
+                    break;
+                case 4:
+                    System.exit(0);
+            }
 
         }
     }
